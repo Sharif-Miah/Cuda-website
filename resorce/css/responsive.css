@@ -1,0 +1,172 @@
+@media screen and (max-width: 1400px) {
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+    nav {
+        padding: 10px 19px;
+    }
+    .text {
+        margin: 0 2px;
+    }
+    .grid-about-items {
+        margin-left: 54px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .text {
+        margin-left: 20px;
+        width: 90%;
+        margin-left: 16px;
+    }
+    .about-text {
+        margin-left: 28px;
+    }
+    .grid-about-items {
+        margin-left: 18px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cuda-text h1 {
+        font-size: 430%;
+    }
+    .grid-member-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+    #team .service-text p {
+        margin-bottom: 50px;
+    }
+    .grid-portfolio-items img{
+        width: 80%;
+    }
+    .porject-btn {
+        margin-top: 20px;
+    }
+    #portfolio .service-text p {
+        font-size: 180%;
+        margin-bottom: 35px;
+    }
+    .grid-about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 35px;
+    }
+    .about-text p {
+        font-size: 200%;
+        width: 294px;
+        color: #fff;
+    }
+    form .inpot input[type="text"], form .inpot input[type="email"] {
+        font-size: 200%;
+        background: inherit;
+        padding: 15px 15px;
+        color: #fff;
+        background: #273a71;
+        border-color: #273a71;
+        border-radius: 5px;
+        width: 450px;
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cuda-img {
+        display: block;
+        margin: auto;
+    }
+    .cuda-menu {
+        float: none;
+    }
+    #cuda ul {
+        margin-top: 10px;
+    }
+    #cuda ul li {
+        margin: 8px 20px;
+    }
+    #cuda ul li a {
+        font-size: 190%;
+    }
+    .cuda-text h1 {
+        font-size: 340%;
+    }
+    .grid-service-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+    #team .service-text h2 {
+        font-size: 390%;
+    }
+    .grid-skill-cintainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+    }
+    .grid-about-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 150px;
+    }
+    .service-text p {
+        width: 70%;
+        margin: auto;
+    }
+    form .inpot input[type="text"], form .inpot input[type="email"] {
+        margin-top: 22px;
+    }
+    #footer ul li {
+        margin-bottom: 10px;
+    }
+    .service-text {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #cuda ul li {
+        margin: 8px 8px;
+    }
+    #cuda ul li a {
+        font-size: 183%;
+    }
+    .cuda-text h1 {
+        font-size: 248%;
+    }
+    .grid-service-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    }
+    .service-text h2 {
+        font-size: 360%;
+    }
+    .grid-member-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .grid-skill-cintainer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+    }
+    .grid-portfolio-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .grid-about-items {
+        margin-left: -72px;
+        margin-top: 20px;
+    }
+    #about .service-text h2 {
+        font-size: 340%;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    #cuda ul li a {
+        font-size: 149%;
+    }
+}
